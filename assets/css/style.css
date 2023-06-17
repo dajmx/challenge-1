@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    background: black;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    height: auto;
+    margin: 0px auto;
+    background: rgb(189, 189, 189);
+    overflow: hidden;
+}
+
+header {
+   
+    background-color: rgb(47, 99, 112);
+    
+}
+
+.header {
+    width: 100%;
+}
+
+.header nav .logo {
+    width: 18%;
+    display: inline-block;
+    /* background-color: antiquewhite; */
+    vertical-align: middle;
+}
+.header nav .logo p{
+    font-size: 30px;
+    margin: 20px;
+    font-weight: 700;
+    text-align: left;
+    color: white;
+}
+
+.header nav .logo p span {
+    color: rgb(201, 200, 204);
+}
+
+.header nav  ul {
+    width: 80%;
+    display: inline-block;
+    text-align: right;
+    /* background-color: aliceblue; */
+    
+}
+.header nav  ul li {
+    
+    display: inline-block;
+    margin: 0 12px;
+}
+
+.header nav  ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    vertical-align: middle;
+}
+
+
+main {
+    width: 1000px;
+}
+
+main .principalImage div img {
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+main .topics{
+    width: 66%;
+    display: inline-block;
+    margin:0 2%;
+}
+
+.blueSection {
+    width: 100%;
+    background: rgb(37, 98, 179);
+    margin-right: 10px;
+    padding: 45px;
+    margin-bottom: 3%;
+   
+}
+
+
+.right img {
+    float: right;
+}
+
+
+
+.blueSection img {
+    width: 40%;
+    margin-right: 5%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.blueSection .info {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.blueSection .info h1{
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: white;
+}
+
+.blueSection .info p {
+    font-size: 12px;
+    color: white;
+}
+
+main aside {
+    width: 28%;
+    float: right;
+    background: rgb(48, 135, 194);
+    padding: 2%;
+    margin-right: 2%;
+}
+
+main aside h2 {
+    color: white;
+    text-align: center;
+    margin: 5%;
+}
+
+main aside p{
+    color: white;
+    text-align: left;
+}
+
+
+aside .options figure {
+    width: 100%;
+    text-align: center;
+}
+
+aside .options figure img{
+    width: 50%;
+}
+
